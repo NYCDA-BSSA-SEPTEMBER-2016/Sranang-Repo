@@ -3,10 +3,6 @@
 	$(document).ready(function () {
 		$(document).on("scroll", onScroll);
 
-
-		// $('.mainnav a').click(function(){
-  //  			$(this).toggleClass('active');
-		// }); // edited this
  
 		$('a[href^="#"]').on('click', function (e) {
 			e.preventDefault();

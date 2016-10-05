@@ -1,7 +1,6 @@
+/* When the Menu is clicked, the orange text stays active */
+
 .collapse ul.nav .navactive{
     color:#e44d1f!important;
 }
 
-/*.collapse ul.nav .navactive {
-    color: red!important;
-}*/
