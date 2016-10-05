@@ -12,6 +12,7 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+
 h1 {
     font-size: 37px;
     font-weight: 900;
@@ -19,9 +20,7 @@ h1 {
     letter-spacing: 0.040em;
     border: 1px solid rgba(47, 46, 47, 0.59);
 }
-.navactive{
-   border-bottom: 1px solid #96E16B;
-}
+
 p.desc-text{
     font-size: 20px;
     line-height: 35px;
@@ -163,6 +162,7 @@ h1, h2, p, span, a {
 .color_animation:hover{
     color: #e44d1f !important;
 }
+
 /*========================
     NAV
 =========================*/
@@ -190,6 +190,7 @@ li{
     /*padding-left: 10px;*/
     word-spacing: 5px !important;
 }
+
 /*========================
 INTRO CONTAINER
 =========================*/
@@ -666,6 +667,7 @@ MEDIA QUERIES TABLET
     .main-nav a:hover {
         color: #e44d1f;
     }
+
     .direction a {
         border: 5px solid rgba(0,0,0,0);
         display: inline-block;
