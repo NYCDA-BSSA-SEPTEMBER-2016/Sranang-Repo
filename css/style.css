@@ -5,3 +5,8 @@ img {
 	color: yellow;
 	font-size: 20px;
 }
+
+.collapse ul.nav .navactive{
+    color:#e44d1f!important;
+}
+
