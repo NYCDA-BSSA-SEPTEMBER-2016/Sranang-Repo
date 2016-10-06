@@ -1,6 +1,10 @@
 img {
 	max-width:100%;
 }
+
+body {
+	background-color: #ecddc7
+}
 .top-title {
 	color: yellow;
 	font-size: 20px;
@@ -19,6 +23,75 @@ img {
 
 .collapse ul.nav .navactive{
 	color:#e44d1f!important;
+}
+
+/* CONTACT AREA */
+
+
+#contact { 
+	background-color: #ecddc7;
+}
+
+#contact-top-section {
+	margin-bottom: 30px;
+}
+
+#contact-top-section p {
+	color:#553739;
+}
+
+#contact-top-section h2 {
+	color:#553739;
+}
+
+#contact-top-section span {
+	color:#553739
+}
+
+#contact-top-section a {
+	color:#553739
+}
+
+/* Contact Area Map */
+
+.map {
+	margin-top:50px;
+}
+
+/* Area with Business Hours */
+
+.business-hours span{
+	float:left;
+	margin-top:2px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.left-text p{
+    text-align: left;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
+/* Area with contact details */
+
+.contact-section span{
+	float:left;
+	margin-top:2px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.contact-icons span{
+	float:left;
+	margin-top:10px;
+	margin-right: 10px;
+}
+
+.right-text p{
+    text-align: left;
+    border-bottom: 1px solid;
+    padding: 10px 0;
 }
 
 /* FOOTER AREA */
