@@ -20,28 +20,29 @@
 				window.location.hash = target;
 				$(document).on("scroll", onScroll);
 			});
+
 		});
 	});
- 
-	function onScroll(event){
-		var scrollPosition = $(document).scrollTop();
-		$('.nav li a').each(function () {
-			var currentLink = $(this);
-			var refElement = $(currentLink.attr("href"));
-			if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
-				$('ul.nav li a').removeClass("navactive");
-				currentLink.addClass("navactive");
-			}
-			else{
-				currentLink.removeClass("navactive");
-			}
-		});
+
+function onScroll(event){
+	var scrollPosition = $(document).scrollTop();
+	$('.nav li a').each(function () {
+		var currentLink = $(this);
+		var refElement = $(currentLink.attr("href"));
+		if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+			$('ul.nav li a').removeClass("navactive");
+			currentLink.addClass("navactive");
+		}
+		else{
+			currentLink.removeClass("navactive");
+		}
+	});
 	
-       
-        $(function(){
-            $('#portfolio').mixitup({
-                targetSelector: '.item',
-                transitionSpeed: 350
-            });
-        });
-    };
+
+	$(function(){
+		$('#portfolio').mixitup({
+			targetSelector: '.item',
+			transitionSpeed: 350
+		});
+	});
+};
