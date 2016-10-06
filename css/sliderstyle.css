@@ -18,16 +18,20 @@
     margin-left: -25px;
 }
 
+.Welkom {
+    font-family: "pacifico", arial, verdana, sans-serif;
+    opacity: 0.4;
+    font-size: 50px; 
+    color: #ffffff; 
+    line-height: 60px;
+    text-shadow: 1px 1px 0px #999999, 1px -1px 0px #6B6B6B;
+}
+
 .Slider1text {
-	font-family: "pacifico", arial, verdana, sans-serif;
     position: absolute; 
     top: 90px; 
     left: 376px; 
     width: 600px; 
-	font-size: 50px; 
-	color: #ffffff; 
-	line-height: 60px;
-    text-shadow: 1px 1px 0px #999999, 1px -1px 0px #6B6B6B;
 }
 
 .Slider1Buttons {
