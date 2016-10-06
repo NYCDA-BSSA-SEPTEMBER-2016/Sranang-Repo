@@ -15,6 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link rel="icon" href="faviconblack.ico" type="image/x-icon"> 
+        <link rel="stylesheet" type="text/css" href="css/sliderstyle.css">
         <link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
     </head>
 
@@ -33,7 +34,6 @@
                         </button>
                         <a class="navbar-brand" href="#top"><img class="responsive" src="images/SmallLogo2Height200px.png"></a> 
                     </div>
-
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav main-nav  clear navbar-right ">
@@ -49,10 +49,43 @@
          
         <div id="top" class="starter_container bg">
             <div class="follow_container">
-                <div class="col-md-6 col-md-offset-3">
-                    <h2 class="top-title"> Warung Sranang Makmur</h2>
-                    <h2 class="white second-title">" Yummie "</h2>
-                    <hr>
+                <div class="col-md-12">
+                                        <!-- Start of the slider -->
+                    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+                        <!-- Loading Screen -->
+                        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                            <div style="position:absolute;display:block;background:url('./slider/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                        </div>
+
+                        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                            <div data-p="225.00" style="display: none;">
+                                <img data-u="image" src="./slider/img/interior.jpg" />
+                                <div class="Slider1text">Welkom bij Sranang Makmur</div>
+                                <div class="Slider1Buttons">
+                                    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                                    <a type="button" class="btn btn-default" role="button">Online Bestellen<span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a> 
+                                    <a type="button" class="btn btn-default" role="button">Reserveer</a> 
+                                    </div> 
+                                </div>
+                            </div>
+                            <div data-p="225.00" style="display: none;">
+                                <img data-u="image" src="./slider/img/interior.jpg" />
+                            </div>
+                            <div data-p="225.00" data-po="80% 55%" style="display: none;">
+                                <img data-u="image" src="./slider/img/interior.jpg" />
+                            </div>
+                        </div>
+                        <!-- Bullet Navigator -->
+                        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                            <!-- bullet navigator item prototype -->
+                            <div data-u="prototype" style="width:16px;height:16px;"></div>
+                        </div>
+                        <!-- Arrow Navigator -->
+                        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+                        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+                    </div>
+                                                            <!-- End of the slider -->
                 </div>
             </div>
         </div>
@@ -390,6 +423,7 @@
         <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
         <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
         <script type="text/javascript" src="js/main.js" ></script>
+        <script type="text/javascript" src="js/jssor.slider-21.1.6.mini.js" ></script>
 
     </body>
 </html>
