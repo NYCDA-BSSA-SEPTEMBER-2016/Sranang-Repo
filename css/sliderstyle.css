@@ -25,6 +25,15 @@
     text-shadow: 1px 1px 0px #999999, 1px -1px 0px #6B6B6B;
 }
 
+.Welkom {
+    font-family: "pacifico", arial, verdana, sans-serif;
+    opacity: 0.4;
+    font-size: 50px; 
+    color: #ffffff; 
+    line-height: 60px;
+    text-shadow: 1px 1px 0px #999999, 1px -1px 0px #6B6B6B;
+}
+
 .Slider1text {
     position: absolute; 
     top: 90px; 
