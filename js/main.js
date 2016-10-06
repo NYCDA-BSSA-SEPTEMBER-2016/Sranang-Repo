@@ -24,6 +24,7 @@
 		});
 	});
 
+
 function onScroll(event){
 	var scrollPosition = $(document).scrollTop();
 	$('.nav li a').each(function () {
