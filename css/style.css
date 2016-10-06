@@ -1,9 +1,6 @@
 img {
 	max-width:100%;
 }
-.dark_text {
-	color: #553739;
-}
 .top-title {
 	color: yellow;
 	font-size: 20px;
@@ -17,10 +14,34 @@ img {
 
 /*MENU SECTION */
 
-.menu_overlay {
+#menu_overlay {
 	background-color: #ecddc7;
-	opacity: 0.8;
+	opacity: 0.9;
 	height: 80%;
-	margin: 60px 0px;
 	color: #553739;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+#menu_container {
+	height:100%;
+	overflow: hidden;
+	vertical-align: center;
+}
+#menu_text {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	color:#553739;
+}
+#menu_click {
+	border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+ 	top: 50%;
+  	transform: translateY(-50%);
+}
+#menu_click:hover {
+	opacity: 0.7;
 }
