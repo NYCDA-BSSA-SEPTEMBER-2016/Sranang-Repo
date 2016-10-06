@@ -1,6 +1,10 @@
 img {
 	max-width:100%;
 }
+
+body {
+	background-color: #ecddc7
+}
 .top-title {
 	color: yellow;
 	font-size: 20px;
@@ -13,6 +17,47 @@ img {
 	max-width:250px;
 	margin-top: -20px;
 
+}
+
+/* CONTACT AREA */
+
+
+#contact { 
+	margin-bottom:125px;
+	background-color: #ecddc7
+}
+
+.contact-section span{
+	float:left;
+	margin-top:2px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.contact-icons span{
+	float:left;
+	margin-top:10px;
+	margin-right: 10px;
+}
+
+.business-hours span{
+	float:left;
+	margin-top:2px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.left-text p{
+    text-align: left;
+    border-bottom: 1px solid;
+    padding: 10px 0;
+}
+
+
+.right-text p{
+    text-align: left;
+    border-bottom: 1px solid;
+    padding: 10px 0;
 }
 
 /* When the Menu is clicked, the orange text stays active */
