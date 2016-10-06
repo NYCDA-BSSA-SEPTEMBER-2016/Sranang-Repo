@@ -6,9 +6,37 @@ img {
 	font-size: 20px;
 }
 
+/* NAVIGATION AREA */
+
+.navbar-brand img{
+	max-height:75px;
+	max-width:250px;
+	margin-top: -20px;
+
+}
+
 /* When the Menu is clicked, the orange text stays active */
 
 .collapse ul.nav .navactive{
-    color:#e44d1f!important;
+	color:#e44d1f!important;
 }
 
+/* FOOTER AREA */
+
+footer.sub_footer{
+	background-color: #553739;
+}
+
+p.sub-footer-text {
+	color:#ffffff;
+}
+
+/* When arrow in footer is hovered , the orange arrow appears */
+
+.sub-footer-icon span{
+	color:#ffffff;
+}
+
+.sub-footer-icon span:hover{
+	color:#e44d1f;
+}
