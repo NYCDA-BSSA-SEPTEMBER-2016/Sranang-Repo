@@ -19,26 +19,46 @@ body {
 
 }
 
+/* When the Menu is clicked, the orange text stays active */
+
+.collapse ul.nav .navactive{
+	color:#e44d1f!important;
+}
+
 /* CONTACT AREA */
 
 
 #contact { 
-	margin-bottom:125px;
-	background-color: #ecddc7
+	background-color: #ecddc7;
 }
 
-.contact-section span{
-	float:left;
-	margin-top:2px;
-    margin-right: 10px;
-    font-size: 20px;
+#contact-top-section {
+	margin-bottom: 30px;
 }
 
-.contact-icons span{
-	float:left;
-	margin-top:10px;
-	margin-right: 10px;
+#contact-top-section p {
+	color:#553739;
 }
+
+#contact-top-section h2 {
+	color:#553739;
+}
+
+#contact-top-section span {
+	color:#553739
+}
+
+#contact-top-section a {
+	color:#553739
+}
+
+/* Contact Area Map */
+
+.map {
+	margin-top:50px;
+}
+
+/* Area with Business Hours */
 
 .business-hours span{
 	float:left;
@@ -53,17 +73,25 @@ body {
     padding: 10px 0;
 }
 
+/* Area with contact details */
+
+.contact-section span{
+	float:left;
+	margin-top:2px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.contact-icons span{
+	float:left;
+	margin-top:10px;
+	margin-right: 10px;
+}
 
 .right-text p{
     text-align: left;
     border-bottom: 1px solid;
     padding: 10px 0;
-}
-
-/* When the Menu is clicked, the orange text stays active */
-
-.collapse ul.nav .navactive{
-	color:#e44d1f!important;
 }
 
 /* FOOTER AREA */
