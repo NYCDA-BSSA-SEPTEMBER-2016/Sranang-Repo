@@ -29,6 +29,12 @@ footer.sub_footer{
 
 p.sub-footer-text {
 	color:#ffffff;
+	font-size:12px;
+}
+
+.sub-footer-image img {
+	max-height:20px;
+	float:right;
 }
 
 /* When arrow in footer is hovered , the orange arrow appears */
