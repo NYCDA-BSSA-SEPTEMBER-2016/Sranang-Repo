@@ -9,6 +9,7 @@
     left:25%;
     width: 50%;
     top: 400px;
+}
 
 .starter_container {
     margin-top: -21px;
@@ -25,15 +26,6 @@
 .follow_container {
     top: 9%;
     margin-left: 0px;
-}
-
-.Welkom {
-    font-family: "pacifico", arial, verdana, sans-serif;
-    opacity: 0.4;
-    font-size: 50px; 
-    color: #ffffff; 
-    line-height: 60px;
-    text-shadow: 1px 1px 0px #999999, 1px -1px 0px #6B6B6B;
 }
 
 .Welkom {
