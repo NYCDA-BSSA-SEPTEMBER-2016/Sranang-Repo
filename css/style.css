@@ -11,10 +11,3 @@ img {
 .collapse ul.nav .navactive{
     color:#e44d1f!important;
 }
-
-.follow_container {
-    width: 100%;
-    position: absolute;
-    top: 10%;
-    text-align: center;
-}
