@@ -34,6 +34,7 @@ body {
 
 #story h1{
 	color:#553739;
+	border:1px solid #553739;
 }
 
 .img-section {
@@ -43,6 +44,8 @@ body {
 .img-section img{
 	border-radius: 100px;
 }
+
+/* CATERING AREA */
 
 
 /* CONTACT AREA */
