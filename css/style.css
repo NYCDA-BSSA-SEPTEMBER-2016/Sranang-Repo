@@ -61,12 +61,24 @@ body {
 
 #featured p{
 	font-size:16px;
-	color:#553739;
+	color:#ecddc7;
+  background-color: #553739;
 }
 
 #featured h1{
-	color:#553739;
-	border:1px solid #553739;
+	color:#ecddc7;
+	border:1px solid #ecddc7;
+}
+
+.description_content_catering {
+    padding: 50px 0;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto 0 auto;
+    z-index: 99;
+    position: relative;
+    background: #553739;
+    text-align: center; 
 }
 
 /* CONTACT AREA */
@@ -222,7 +234,7 @@ p.sub-footer-text {
 #pricing .food_img {
 	display:inline-block;
 	border-radius:10px;
-	background-color:#e44d1f;
+	background-color:#553739;
 	text-align:center;
 	max-width: 200px;
 	margin: 20px;
