@@ -54,7 +54,7 @@ body {
 /*	max-height:250px;*/
 }
 
-.carousel-inner img{
+#slider-catering img{
 	border-radius: 100px;
 	max-height:250px;
 }
@@ -247,10 +247,10 @@ p.sub-footer-text {
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
-.carousel-inner img {
+#pricing .carousel-inner img {
 	width:100%;
 }
-.carousel-inner {
+#pricing .carousel-inner {
 	border-radius:10px;
 }
 
