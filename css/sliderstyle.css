@@ -45,6 +45,21 @@
     width: 600px; 
 }
 
+.Slider3text {
+    font-family: "pacifico", arial, verdana, sans-serif;
+    position: absolute; 
+    top: 90px; 
+    left: 350px; 
+    width: 600px; 
+    font-size: 50px; 
+    color: #ffffff; 
+    line-height: 60px;
+}
+
+#Slider3Pic {
+    width:35%;
+}
+
 .Slider1Buttons {
 	position: absolute; 
 	top: 400px; 
