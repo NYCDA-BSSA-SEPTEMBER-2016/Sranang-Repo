@@ -1,18 +1,3 @@
-/*
-Theme Name: Restaurant
-Theme URI: http://themewagon.com/demo/Restaurant/
-Author: ThemeWagon
-Author URI: http://themewagon.com/
-Description: 
-Version: 1.0
-License: GNU General Public License v3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Text Domain: restaurant
-*/
-/*========================
-GLOBAL
-=========================*/
-
 h1 {
     font-size: 37px;
     font-weight: 900;
@@ -28,7 +13,7 @@ p.desc-text{
 }
 .text-content.container {
     margin-top: 65px;
-    margin-bottom: -51px;
+    /*margin-bottom: -51px;*/
 }
 .right-text p{
     text-align: left !important;
@@ -199,7 +184,7 @@ INTRO CONTAINER
     padding: 0;
     min-width: 100%;
     height: 100%;
-    background: url('../images/steak.jpg') no-repeat center center;
+    background: ;
     background-size: cover;
     text-align: center;
     background-position: center;  
@@ -265,11 +250,11 @@ INTRO CONTAINER
     border-bottom: 8px solid #fff;
 }
 
-.beer.background_content{
+/*.beer.background_content{
     background: url('../images/beer.jpg') no-repeat center center; 
     background-size: cover;
     background-position: 70% 50%;
-}
+}*/
 
 .bread.background_content{
     background: url('../images/bread.jpg') no-repeat center center; 

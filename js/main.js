@@ -38,17 +38,5 @@ function onScroll(event){
 			currentLink.removeClass("navactive");
 		}
 	});
-	
-
-/*	$(function(){
-		$('#portfolio').mixitup({
-			targetSelector: '.item',
-			transitionSpeed: 350
-		});
-	});
-};*/
-
-
-
-
+};
 
