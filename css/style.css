@@ -36,6 +36,14 @@ body {
 	color:#553739;
 }
 
+.img-section {
+	padding-top: 150px;
+}
+
+.img-section img{
+	border-radius: 100px;
+}
+
 
 /* CONTACT AREA */
 
@@ -68,6 +76,7 @@ body {
 
 .map {
 	margin-top:50px;
+	margin-bottom:-5px;
 }
 
 /* Area with Business Hours */
@@ -103,7 +112,7 @@ body {
 .right-text p{
     text-align: left;
     border-bottom: 1px solid;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 /* FOOTER AREA */
