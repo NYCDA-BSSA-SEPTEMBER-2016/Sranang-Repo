@@ -30,14 +30,14 @@
 .Slider1text {
     position: absolute; 
     top: 90px; 
-    left: 376px; 
+    left: 350px; 
     width: 600px; 
 }
 
 .Slider1Buttons {
 	position: absolute; 
 	top: 400px; 
-	left: 376px; 
+	left: 350px; 
 	width: 600px; 
 	height: 120px; 
 	font-size: 30px; 
@@ -103,46 +103,28 @@
         .jssora22l.jssora22ldn { background-position: -250px -31px; }
         .jssora22r.jssora22rdn { background-position: -310px -31px; }
 
-        /*edit button css hereeee*/
+        /*________________edit button css hereeee______________________*/
 
         .btn-default {
-          color: #333;
-          background-color: #fff;
-          border-color: #ccc;
+          color: #553739;
+          font-family: "pacifico";
+          font-size:25px;
+          background-color: #ecddc7;
+          border-style: solid;
+          border-radius: 12px;
+          text-decoration: none;
       }
       .btn-default:hover,
       .btn-default:focus,
       .btn-default:active,
       .btn-default.active,
       .open > .dropdown-toggle.btn-default {
-          color: #333;
-          background-color: #e6e6e6;
-          border-color: #adadad;
+          color: #553739;
+          background-color: #e44d1f;
+          border-color: #553739;
       }
       .btn-default:active,
       .btn-default.active,
       .open > .dropdown-toggle.btn-default {
           background-image: none;
-      }
-      .btn-default.disabled,
-      .btn-default[disabled],
-      fieldset[disabled] .btn-default,
-      .btn-default.disabled:hover,
-      .btn-default[disabled]:hover,
-      fieldset[disabled] .btn-default:hover,
-      .btn-default.disabled:focus,
-      .btn-default[disabled]:focus,
-      fieldset[disabled] .btn-default:focus,
-      .btn-default.disabled:active,
-      .btn-default[disabled]:active,
-      fieldset[disabled] .btn-default:active,
-      .btn-default.disabled.active,
-      .btn-default[disabled].active,
-      fieldset[disabled] .btn-default.active {
-          background-color: #fff;
-          border-color: #ccc;
-      }
-      .btn-default .badge {
-          color: #fff;
-          background-color: #333;
       }
