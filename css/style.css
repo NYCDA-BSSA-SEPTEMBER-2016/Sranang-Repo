@@ -173,19 +173,35 @@ p.sub-footer-text {
 	
 #pricing .food_img {
 	display:inline-block;
+	border-radius:10px;
 	background-color:#e44d1f;
 	text-align:center;
 	max-width: 200px;
 	margin: 20px;
 	padding-bottom:10px;
+	overflow:hidden;
 }
 #pricing .food_img h2 {
 	font-size:24px;
 }
+#pricing a:focus {
+	outline: none !important;
+}
 #pricing a {
 	text-decoration:none;
 }
-
-.container .food_img:hover:active:focus, .container .a:hover:active:focus, .container img:hover:active:focus, .container h2:hover:active:focus {
-	outline: none !important;
-} 
+#pricing .modal {
+  position: fixed;
+  top: 10%;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.carousel-inner img {
+	width:100%;
+}
+.carousel-inner {
+	border-radius:10px;
+}
