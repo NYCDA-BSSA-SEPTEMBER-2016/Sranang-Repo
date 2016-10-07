@@ -40,10 +40,15 @@ function onScroll(event){
 	});
 	
 
-	$(function(){
+/*	$(function(){
 		$('#portfolio').mixitup({
 			targetSelector: '.item',
 			transitionSpeed: 350
 		});
 	});
-};
+};*/
+
+
+
+
+
