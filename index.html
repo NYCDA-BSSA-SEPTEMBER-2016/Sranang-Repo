@@ -15,6 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link rel="icon" href="faviconblack.ico" type="image/x-icon"> 
+        <link rel="stylesheet" type="text/css" href="css/sliderstyle.css">
         <link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
     </head>
 
@@ -44,15 +45,46 @@
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
-            </div><!-- /.container-fluid -->
+             </div><!-- /.container-fluid -->
         </nav>
          
         <div id="top" class="starter_container bg">
             <div class="follow_container">
-                <div class="col-md-6 col-md-offset-3">
-                    <h2 class="top-title"> Warung Sranang Makmur</h2>
-                    <h2 class="white second-title">" Yummie "</h2>
-                    <hr>
+                <div id="container">
+                    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+                        <div id="StickyButtons">
+                            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                                <a href="http://bestellen.sranangmakmur.nl" class="btn btn-default">Bestel Online &nbsp&nbsp<span aria-hidden="true" class="glyphicon glyphicon-globe"></span></a> 
+                                <a href="https://www.iens.nl/restaurant/warung-sranang-makmur/224063" class="btn btn-default">Reserveren &nbsp&nbsp<span aria-hidden="true" class="glyphicon glyphicon-cutlery"></span></a>
+                            </div> 
+                        </div>
+                        <!-- Loading Screen -->
+                        <div data-u="loading" class="loading1">
+                            <div class="loading2"></div>
+                            <div class="loading3"></div>
+                        </div><!--slide1 stars-->
+                        <div data-u="slides" class="slideS">
+                            <div data-p="225.00" style="display: none;">
+                                <img data-u="image" align="middle" src="./images/interior.jpg" />
+                                <div class="Slider1text"><p class="Welkom">Welkom</p><img id="HeaderLogo" src="./Images/Logo1.png"></div>
+                            </div><!--slide 1 ends 2 begins-->
+                            <div data-p="225.00" style="display: none;">
+                                <img data-u="image" src="./images/slide2.jpg" />                                
+                            </div><!--slide 2 ends 3 begins-->
+                            <div data-p="225.00" data-po="80% 55%" style="display: none;">
+                                <img data-u="image" src="./images/slide3.jpg" />
+                                <div class="Slider3text">Bestel online en ontvang een gratis drankje!<br><img id="Slider3Pic" src="./Images/drankje.png"></div>                               
+                            </div>
+                        </div>
+                        <!-- Bullet Navigator -->
+                        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                            <!-- bullet navigator item prototype -->
+                            <div data-u="prototype" style="width:16px;height:16px;"></div>
+                        </div>
+                        <!-- Arrow Navigator -->
+                        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+                        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -258,6 +290,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js" ></script>
     <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
     <script type="text/javascript" src="js/main.js" ></script>
-
+    <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+    <script type="text/javascript" src="js/jssor.slider-21.1.6.mini.js" ></script>
 </body>
 </html>
