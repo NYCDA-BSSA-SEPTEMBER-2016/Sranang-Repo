@@ -34,22 +34,48 @@ body {
 
 #story h1{
 	color:#553739;
+	border:1px solid #553739;
 }
 
 .img-section {
-	padding-top: 150px;
+	padding-top: 50px;
+	max-height: 500px
 }
 
 .img-section img{
 	border-radius: 100px;
+	max-height: 500px
 }
 
+/* CATERING AREA */
+
+#carousel-example-generic {
+	padding-top: 75px;
+/*	max-height:250px;*/
+}
+
+.carousel-inner img{
+	border-radius: 100px;
+	max-height:250px;
+}
+
+#featured p{
+	font-size:16px;
+	color:#553739;
+}
+
+#featured h1{
+	color:#553739;
+	border:1px solid #553739;
+}
 
 /* CONTACT AREA */
 
 
 #contact { 
 	background-color: #ecddc7;
+	padding-top:50px;
+/*	margin-top:-50px;*/
 }
 
 #contact-top-section {
