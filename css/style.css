@@ -51,10 +51,12 @@ body {
 
 #carousel-example-generic {
 	padding-top: 75px;
+/*	max-height:250px;*/
 }
 
 .carousel-inner img{
 	border-radius: 100px;
+	max-height:250px;
 }
 
 #featured p{
