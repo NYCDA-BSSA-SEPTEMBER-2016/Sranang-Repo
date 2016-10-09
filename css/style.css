@@ -195,9 +195,10 @@ p.sub-footer-text {
 }
 #menu_overlay {
 	background-color: #ecddc7;
+	box-shadow: 10px 10px 20px;
 	opacity: 0.9;
 	height: 80%;
-	color: #553739;
+	color: #000000;
 	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
@@ -212,8 +213,12 @@ p.sub-footer-text {
   	top: 20%;
   	transform: translateY(-50%);
 }
+#menu_bestek {
+	color:#553739;
+}
 #menu_click {
 	border-radius: 5px;
+	box-shadow: 5px 5px 10px;
     cursor: pointer;
     transition: 0.3s;
     position: relative;
@@ -233,6 +238,7 @@ p.sub-footer-text {
 	
 #pricing .food_img {
 	display:inline-block;
+	box-shadow:10px 10px 20px;
 	border-radius:10px;
 	background-color:#553739;
 	text-align:center;
