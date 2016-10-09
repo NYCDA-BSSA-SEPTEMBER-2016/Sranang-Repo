@@ -233,6 +233,7 @@ p.sub-footer-text {
 	
 #pricing .food_img {
 	display:inline-block;
+	box-shadow:10px 10px 20px;
 	border-radius:10px;
 	background-color:#553739;
 	text-align:center;
