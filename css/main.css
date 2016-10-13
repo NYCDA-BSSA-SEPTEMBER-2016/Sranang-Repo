@@ -183,7 +183,6 @@ INTRO CONTAINER
     margin-top: -21px;
     padding: 0;
     min-width: 100%;
-    height: 100%;
     background: ;
     background-size: cover;
     text-align: center;
@@ -193,6 +192,7 @@ INTRO CONTAINER
     width: 100%;
     position: absolute;
     top: 35%;
+    display: table-row;
     text-align: center;
 }
 .starter_follow {
